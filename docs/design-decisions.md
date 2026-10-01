@@ -13,3 +13,7 @@ Reason: This prevents data duplication and user having to create multiple accoun
 ## Decision 4
 Decision:Payments whether failed or pending are all being stored in the database.
 Reason: So there wont be loss of information on previous payments and incase for example a custoemrs credit card declines they can always come back nd finish up the payment
+
+## Git Workflow
+
+SlotSure uses feature branches for isolated changes. Changes are committed with descriptive messages and merged into the main branch only after review. This keeps the main branch stable and makes project history easier to understand.
